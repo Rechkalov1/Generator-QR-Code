@@ -11,9 +11,9 @@ function App() {
         type="text"
         placeholder="Введите ссылку для Qr-Code"
       />
-      <div>
+      <a href={inputValue}>
         <QRCode value={inputValue} />
-      </div>
+      </a>
     </Div>
   );
 }
